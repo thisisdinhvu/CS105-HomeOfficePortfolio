@@ -1,0 +1,83 @@
+@use "../../../index.scss" as styles;
+
+$bg-color: #060606;
+$text-color: #ffffff;
+
+@mixin center-flex($direction: column, $gap: 24px) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+}
+
+.loading-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100000;
+
+  .background-top-half,
+  .background-bottom-half {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: $bg-color;
+  }
+
+  .background-top-half {
+    top: 0;
+  }
+
+  .background-bottom-half {
+    top: 50%;
+  }
+
+  .loading-screen-info-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    @include center-flex();
+  }
+
+  .intro-message-container {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: $text-color;
+    font-size: 2.25rem; // 36px
+    opacity: 0;
+    font-weight: 300;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem; // 24px
+    }
+  }
+
+  .loading-bar-container {
+    width: 100%;
+    height: 6px;
+
+    .loading-bar {
+        width: 0;
+        height: 100%;
+        border-radius: 3px;
+        background-color: $text-color;
+        transition: width 0.3s ease;
+    }
+  }
+
+  .percentage {
+    font-size: 0.875rem; // 14px
+    color: $text-color;
+    @include center-flex(column, 8px);
+    margin-top: 24px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,66 @@
+.toggle-button {
+  position: fixed;
+  bottom: 57px;
+  right: 48px;
+  z-index: 40;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  border: 1px solid white;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+
+  // Icon container
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      transition: transform 0.4s ease;
+    }
+  }
+
+  // Rotate on hover
+  &:hover {
+    background-color: white;
+    color: #0a0a0a;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+
+    .icon svg {
+      transform: rotate(90deg);
+    }
+  }
+
+  // Theme override
+  &.home-office-3 {
+    background-color: rgba(255, 255, 255, 0.9); // Nền sáng
+    color: #0a0a0a; // Chữ tối
+    border: 1px solid #0a0a0a;
+
+    &:hover {
+      background-color: #0a0a0a;
+      color: white;
+
+      .icon svg {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 768px) {
+    bottom: 50px;
+    right: 32px;
+    padding: 10px;
+  }
+}
