@@ -2,11 +2,8 @@ import React, { Suspense, useRef, useEffect } from 'react'
 import * as THREE from 'three'
 import gsap from 'gsap'
 
-import HomeOffice2 from './models/HomeOffice2_v5' // NEW
-// import HomeOffice3 from './models/HomeOffice5_v1' // NEW
-// import HomeOffice3 from './models/HomeOffice2_n_v2' 
-import HomeOffice3 from './models/HomeOffice5_v2' // No hitbox but OK
-// import HomeOffice2 from './models/HomeOffice5-4'
+import HomeOffice2 from './models/HomeOffice2_v5' // OK
+import HomeOffice3 from './models/HomeOffice5_v3' // OK
 
 
 import { useFrame } from '@react-three/fiber'
