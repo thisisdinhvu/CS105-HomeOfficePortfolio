@@ -15,7 +15,7 @@ const AboutPage = () => {
                       "Không chỉ đơn thuần là mô hình trình bày, “Home Office” còn là sự kết hợp hài hòa giữa thiết kế, công nghệ và cảm xúc, thể hiện phong cách sáng tạo và khả năng số hóa không gian của công ty. Đây chính là bước tiến mới trong việc kể chuyện thiết kế bằng ngôn ngữ số đầy cuốn hút.",
               ],
       }}
-        imageSrc={"images/uia.webp"}
+        imageSrc={"images/about1.webp"}
       /> 
     </>
   )

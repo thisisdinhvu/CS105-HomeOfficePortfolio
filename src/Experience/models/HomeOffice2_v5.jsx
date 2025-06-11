@@ -264,7 +264,7 @@ export default function Model(props) {
           <mesh name="Plane011" geometry={nodes.Plane011.geometry} material={materials['Picture_1.001']} />
           <mesh name="Plane011_1" geometry={nodes.Plane011_1.geometry} material={materials['Frame_Black.001']} />
         </group>
-        <mesh name="Plane006" geometry={nodes.Plane006.geometry} material={materials['Material.001']} position={[-0.599, 0.08, 0]} rotation={[-Math.PI, 0, 0]} scale={[1.61, 7.85, 1.64]} />
+        <mesh name="Plane006" geometry={nodes.Plane006.geometry} material={materials['Material.001']} position={[-0.599, 0.08, 0]} rotation={[-Math.PI, 0, 0]} scale={[2.5, 7.85, 2.5]} />
         <mesh
           geometry={nodes.About_Hitbox.geometry}
           material={nodes.About_Hitbox.material}

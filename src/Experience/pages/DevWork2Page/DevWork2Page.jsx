@@ -7,14 +7,12 @@ const DevWork2Page = () => {
     <>
         {/* <div className="title">Hello from DevWork2Page</div> */}
           <Page requireHomeOffice2={false} panelContent={{
-            title: "Development Work",
-            quote: "Transforming visionary designs into seamless digital realities.",
+            title: "Home Office 2",
+            quote: "Tối giản trong bố cục, hiện đại trong cảm hứng.",
             content: [
-            "Our development side is where innovation meets execution, transforming creative concepts into interactive, functional, and technically sound digital experiences. While our design team focuses on the aesthetics and emotional depth of architecture, our development team ensures that these visions are translated seamlessly into interactive and dynamic experiences.",
-            "From parametric modeling tools to custom-built interactive platforms, we empower architects with the ability to explore their designs beyond static imagery. Leveraging the latest in WebGL, Three.js, Unreal Engine, and Blender, we create digital environments that architects can navigate, manipulate, and refine in real time.",
-            "By integrating optimized rendering engines, efficient asset management systems, and real-time lighting calculations, we ensure that every interactive experience is as fluid and responsive as it is visually compelling. We also pioneer the use of cloud-based architectural collaboration tools, enabling real-time feedback and iterative design refinement with stakeholders across the globe.",
-            "With expertise in computational design scripting, BIM integrations, and procedural generation, we build custom digital tools that allow architects to generate, analyze, and refine complex forms with precision. By bridging the gap between design artistry and digital efficiency, we transform abstract concepts into tangible, interactive experiences that elevate the architectural process.",
-          ],
+         "Không gian được thiết kế theo phong cách tối giản, với gam màu beige chủ đạo mang lại cảm giác ấm áp và thanh thoát. Bàn gỗ, kệ sách mở và đèn để bàn được bố trí khéo léo, tạo nên một góc làm việc tiện nghi, góp phần nâng cao hiệu suất và cảm hứng sáng tạo. Sự kết hợp hài hòa giữa sắc beige nhẹ nhàng, sàn gỗ tự nhiên và điểm xuyết cây xanh giúp không gian trở nên gần gũi, thư thái và dễ chịu.",
+         "Từng vật dụng được sắp đặt khéo léo để không chỉ hỗ trợ công việc mà còn mang lại cảm giác thư giãn. Đây là nơi dung hòa giữa thẩm mỹ hiện đại và hiệu quả sử dụng – một home office lý tưởng cho những ai tìm kiếm sự cân bằng giữa sáng tạo và hiệu suất.",
+  	    ],
       }}
         imageSrc={"images/devwork2.webp"}
       />
