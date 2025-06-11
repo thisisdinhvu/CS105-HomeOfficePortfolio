@@ -34,7 +34,7 @@ const Page = ({ requireHomeOffice2, panelContent, imageSrc }) => {
         y: 20,
       });
 
-      const newDelay = delay >= 2 ? delay : 0.3;
+      const newDelay = delay >= 2 ? delay : 0.5;
       const tl = gsap.timeline({ delay: newDelay });
 
       tl.to(

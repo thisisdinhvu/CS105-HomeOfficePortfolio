@@ -28,7 +28,7 @@ const Overlay = () => {
     if (isExiting) {
       gsap.to(overlayRef.current, {
         opacity: 0,
-        duration: 0.9,
+        duration: 0.8,
         onComplete: () => {
           gsap.set(overlayRef.current, { display: "none" });
         },

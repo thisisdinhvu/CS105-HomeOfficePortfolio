@@ -10,7 +10,7 @@ import './Transitions.scss'
 const TransitionComponent = ({ children }) => {
   const nodeRef = useRef(null);
 
-  const delay = 3.5;
+  const delay = 4.5;
 
   const location = useLocation();
 

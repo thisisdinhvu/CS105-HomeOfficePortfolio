@@ -344,7 +344,7 @@ export default function Model(props) {
           <mesh name="Vase001" geometry={nodes.Vase001.geometry} material={materials['Clay Gray.002']} />
         </group>
         <group name="Back-Wing_Chair" position={[-0.578, 2.086, -0.939]} rotation={[0, -0.063, 0]} scale={[1.998, 1.932, 2.281]} />
-        <pointLight name="Sun001" intensity={4} decay={2} distance={20}  color="#ffeecd" position={[2.855, 2.229, 0.349]} rotation={[-Math.PI / 2, 0, 0]} scale={[-15.357, -22.558, -36.91]} />
+        <pointLight name="Sun001" intensity={6} decay={2.5} distance={20}  color="#ffeecd" position={[2.855, 2.429, 0.349]} rotation={[-Math.PI / 2, 0, 0]} scale={[-15.357, -22.558, -36.91]} />
         <pointLight name="Sun002" intensity={3} decay={2.5} distance={20}  color="#ffeecd" position={[0.175, 3.742, 0.331]} rotation={[-Math.PI / 2, 0, 0]} scale={[-15.357, -22.558, -36.91]} />
         <pointLight name="Sun003" intensity={6} decay={2.5} distance={20}  color="#ffeecd" position={[0.175, 2.735, 0.331]} rotation={[-Math.PI / 2, 0, 0]} scale={[-15.357, -22.558, -36.91]} />
         <mesh name="Globe_inner_pin001" geometry={nodes.Globe_inner_pin001.geometry} material={materials['stainless.002']} position={[0.191, -0.011, 0.448]} rotation={[0, 0, -Math.PI / 2]} scale={[1.932, 1.996, 2.282]} />
